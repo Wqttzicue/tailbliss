@@ -1,4 +1,4 @@
-baseURL: 'https://tailbliss.netlify.app/'
+baseURL: ${{ steps.deployment.outputs.page_url }}
 title: TailBliss
 locale: en-us
 DefaultContentLanguage: en
